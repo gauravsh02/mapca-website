@@ -3,25 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --brand-primary: 111, 97, 192;
+  --brand-primary-light: 160, 132, 232;
+  --brand-secondary: 139, 232, 229;
+  --brand-secondary-light: 213, 255, 228;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
+}
+
+.brand-primary {
+  color: rgb(var(--brand-primary))
+}
+.brand-primary-light {
+  color: rgb(var(--brand-primary-light))
+}
+.brand-secondary {
+  color: rgb(var(--brand-secondary))
+}
+.brand-secondary-light {
+  color: rgb(var(--brand-secondary-light))
+}
+
+.borderBGPrimary {
+  border-color: rgb(var(--brand-primary))
 }
