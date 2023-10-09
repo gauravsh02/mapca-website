@@ -139,7 +139,7 @@ const Map: React.FC<IMap> = ({ mapType, mapTypeControl = false, setDistanceInKm}
 
     // here
     const infowindow = new google.maps.InfoWindow();
-    var content = '<div class="content"><a class="flex" href="https://www.google.co.in/maps/dir//28.577726,77.23029" target="_blank"><span><img align="center" src="/direction-up.svg"></span>  <span style="margin-top: 10px;">MAP CA</span></a></div>'
+    var content = '<div class="content"><a class="flex" href="https://www.google.co.in/maps/dir//28.577726,77.23029" target="_blank"><span><img align="center" src="/direction-up.svg"></span>  <span style="margin-top: 10px; color: #000;">MAP CA</span></a></div>'
     infowindow.setContent(content)
 
 
