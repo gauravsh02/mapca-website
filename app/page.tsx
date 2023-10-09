@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col'>
-      <section id='#' className='mt-16'>
+      <section id='#' className='mt-0 lg:mt-16'>
         <Carousel
           showIndicators={true}
           showStatus={false}
@@ -163,7 +163,7 @@ export default function Home() {
 
       <section id='resource' className='p-10'>
         <div className='flex flex-col p-2 items-center justify-center rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
-          <h3 className='py-4 text-5xl'>Why Choose Us</h3>
+          <h3 className='py-4 text-5xl text-center'>Why Choose Us</h3>
           <div className='flex my-2 lg:p-10 p-8'>
             <ul className='list-none'>
               <li className='text-2xl'>
