@@ -48,7 +48,7 @@ export default function Home() {
 
       <section id='home' className='p-10'>
         <div className='flex flex-col py-2 items-center justify-center rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
-          <h3 className='py-4 text-5xl'>About Us</h3>
+          <h3 className='py-4 text-5xl font-medium'>About Us</h3>
           <div className='grid grid-cols-1 lg:grid-cols-3 my-4'>
             <div className='lg:p-10 p-8 col-span-2 row-span-1 order-2 lg:order-1 md:grid-cols-4 lg:grid-cols-3 flex flex-col items-center justify-center'>
               <p className='text-2xl font-light'>
@@ -69,7 +69,7 @@ export default function Home() {
 
       <section id='service' className='p-10'>
         <div className='flex flex-col py-2 items-center justify-center'>
-          <h3 className='py-4 text-5xl'>Service</h3>
+          <h3 className='py-4 text-5xl font-medium'>Service</h3>
 
           <div className='flex flex-col gap-5 md:flex-row my-2'>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
@@ -163,7 +163,7 @@ export default function Home() {
 
       <section id='resource' className='p-10'>
         <div className='flex flex-col p-2 items-center justify-center rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
-          <h3 className='py-4 text-5xl text-center'>Why Choose Us</h3>
+          <h3 className='py-4 text-5xl text-center font-medium'>Why Choose Us</h3>
           <div className='flex my-2 lg:p-10 p-8'>
             <ul className='list-none'>
               <li className='text-2xl'>
@@ -188,7 +188,7 @@ export default function Home() {
 
       <section id='team' className='p-10'>
         <div className='flex flex-col py-2 items-center justify-center'>
-          <h3 className='py-4 text-5xl'>Team</h3>
+          <h3 className='py-4 text-5xl font-medium'>Team</h3>
           <div>
             <Carousel
               centerMode
@@ -264,7 +264,7 @@ export default function Home() {
 
       <section id='contact' className='p-10'>
         <div className='flex flex-col items-center py-2 justify-center rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
-          <h3 className='py-4 text-5xl'>Contact Us</h3>
+          <h3 className='py-4 text-5xl font-medium'>Contact Us</h3>
           <div className='flex flex-col my-2'>
             <div className='text-2xl text-center lg:p-10 p-8'>
               Ready to take control of your business for future growth, finances and achieve your financial goals? Contact us today for a free consultation. We are here to support you every step of the way

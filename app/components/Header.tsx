@@ -28,9 +28,10 @@ export const Header = () => {
       <header className="hidden lg:block relative lg:fixed w-full top-0 border-b border-grey-200 dark:border-grey-600 z-[0] lg:z-30 bg-[#ffffffcc] dark:bg-[#222222cc] backdrop-blur-2xl">
         <nav className="z-50 w-full items-center px-4 py-2 relative lg:sticky lg:top-0 left-0 right-0 top-0">
           <div className="flex justify-between mx-auto max-w-[1392px]">
-            <div className="flex items-center gap-3">
-              <Image src="/logo.svg" alt="MKS Logo" className="w-16" width={50} height={24} priority />
-              <a className="font-semibold dark:text-grey-500 brand-primary" href="/">MAP <span className="font-light brand-primary">CA</span></a>
+            <div className="items-center gap-3">
+              {/* <Image src="/logo.svg" alt="MKS Logo" className="w-16" width={50} height={24} priority /> */}
+              {/* <a className="font-semibold dark:text-grey-500 brand-primary" href="/">MAP <span className="font-light brand-primary">CA</span></a> */}
+              <a className='grid font-semibold dark:text-grey-500 brand-primary' href='/'> <span>MAP & Co</span><span className='font-light text-sm'>Chartered Accountants</span></a>
             </div>
             <ol className="mx-auto w-max z-10 flex items-center hidden lg:flex">
               <li className="group relative list-none hover:scale-110 py-3 px-7 cursor-pointer dark:text-grey-500">
