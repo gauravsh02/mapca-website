@@ -49,14 +49,27 @@ export default function Home() {
             <Image src="/banner/banner-5.png" alt="Banner-4" className="w-48" width={2880} height={1200} priority />
           </div> */}
           <div>
-            <Image src="/banner/banner-6.png" alt="Banner-4" className="w-48" width={2880} height={1200} priority />
+            <Image src="/banner/banner-3.png" alt="Banner-3" className="w-48" width={2880} height={1200} priority />
           </div>
           <div>
-            <Image src="/banner/banner-7.png" alt="Banner-4" className="w-48" width={2880} height={1200} priority />
+            <Image src="/banner/banner-4.png" alt="Banner-4" className="w-48" width={2880} height={1200} priority />
           </div>
           <div>
-            <Image src="/banner/banner-8.png" alt="Banner-4" className="w-48" width={2880} height={1200} priority />
+            <Image src="/banner/banner-5.png" alt="Banner-5" className="w-48" width={2880} height={1200} priority />
           </div>
+          <div>
+            <Image src="/banner/banner-5.png" alt="Banner-5" className="w-48" width={2880} height={1200} priority />
+          </div>
+          <div>
+            <Image src="/banner/banner-6.png" alt="Banner-6" className="w-48" width={2880} height={1200} priority />
+          </div>
+          <div>
+            <Image src="/banner/banner-7.png" alt="Banner-7" className="w-48" width={2880} height={1200} priority />
+          </div>
+          <div>
+            <Image src="/banner/banner-8.png" alt="Banner-8" className="w-48" width={2880} height={1200} priority />
+          </div>
+          
         </Carousel>
       </section>
 
@@ -78,6 +91,27 @@ export default function Home() {
               <Image src="/logo.svg" alt="MKS Logo" className="w-96" width={50} height={24} priority />
             </div>
           </div>
+          <div className='flex my-4'>
+            <div className='lg:px-10 px-8'>
+              <h4 className='text-4xl font-medium'>Who We Are</h4>
+              <ul className='list-disc ml-4'>
+                <li className='text-2xl font-light'>
+                  <span className='font-medium'>Qualified Professionals :</span> Our team consists of highly qualified and experienced Chartered Accountants who are experts in their fields.
+                </li>
+                <li className='text-2xl font-light'>
+                  <span className='font-medium'>Client-Centric Approach :</span> We understand that every client is unique, and we tailor our services to meet your specific needs and goals.
+                </li>
+                <li className='text-2xl font-light'>
+                <span className='font-medium'>Ethical and Transparent :</span> We uphold the highest standards of ethics and transparency, ensuring that you can trust us with your financial matters.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='flex my-4 pb-4'>
+            <div className='lg:px-10 px-8 text-2xl font-light'>
+              Our growth can be attributed to our employees' knowledge, skill, and commitment to providing outstanding client service. Our employees are a part of a team that values the individual strengths that each employee contributes.
+            </div>
+          </div>
         </div>
       </section>
 
@@ -93,6 +127,14 @@ export default function Home() {
                   Taxation Services
               </h2>
               <p className='text-2xl font-light'>We offer comprehensive tax planning and compliance services, helping you minimize tax liabilities and meet your obligations efficiently. Our services include Income tax and GST matter</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Income Tax and GST Planning
+                </li>
+                <li className='text-2xl'>
+                  Assisting in Filing services and Appear before departments
+                </li>                
+              </ul>
               {/* <a className='contents' href='/web-design-development-service'><button className='btn flex w items-center justify-center gap-4 self-start mt-8 text-sm btn-opp white sm ' data-projection-id='574'>Learn More<span data-projection-id='575'><svg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg' className=' undefined'><path d='M1.5 1.5L5 5L1.5 8.5' stroke='currentColor' strokeWidth='1.4' strokeLinecap='round' strokeLinejoin='round' data-projection-id='576'></path></svg></span></button></a> */}
             </div>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
@@ -103,6 +145,17 @@ export default function Home() {
               </h2>
               <p className='text-2xl font-light'>Our audit services are designed to provide accurate and reliable financial information, instilling confidence in stakeholders</p>
               {/* <a className='contents' href='/web-design-development-service'><button className='btn flex w items-center justify-center gap-4 self-start mt-8 text-sm btn-opp white sm ' data-projection-id='574'>Learn More<span data-projection-id='575'><svg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg' className=' undefined'><path d='M1.5 1.5L5 5L1.5 8.5' stroke='currentColor' strokeWidth='1.4' strokeLinecap='round' strokeLinejoin='round' data-projection-id='576'></path></svg></span></button></a> */}
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Statutory Audit
+                </li>
+                <li className='text-2xl'>
+                  Internal Audit
+                </li>
+                <li className='text-2xl'>
+                  Special Audit
+                </li>
+              </ul>
             </div>
           </div>
           <div className='flex flex-col gap-5 md:flex-row my-2'>
@@ -112,6 +165,17 @@ export default function Home() {
                 Financial Planning
               </h2>
               <p className='text-2xl font-light'>We work with individuals and businesses to create customized financial plans that align with their objectives and aspirations</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Advice for Future planning
+                </li>
+                <li className='text-2xl'>
+                  Portfolio Audit
+                </li>
+                <li className='text-2xl'>
+                  Protection for your Investment
+                </li>
+              </ul>
             </div>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
               <h2 className='flex mt-auto mb-4 text-4xl'>
@@ -119,6 +183,17 @@ export default function Home() {
                 Accounting & Bookkeeping
               </h2>
               <p className='text-2xl font-light'>Our meticulous accounting and bookkeeping services ensure that your financial records are organized and accurate</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Accounting Outsource
+                </li>
+                <li className='text-2xl'>
+                  Accountants assistance
+                </li>
+                <li className='text-2xl'>
+                  Book Keeping consultancy
+                </li>
+              </ul>
             </div>
           </div>
           <div className='flex flex-col gap-5 md:flex-row my-2'>
@@ -128,6 +203,20 @@ export default function Home() {
                 Business Advisory
               </h2>
               <p className='text-2xl font-light'>We offer valuable insights and recommendations to help businesses grow and prosper</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Business Planning
+                </li>
+                <li className='text-2xl'>
+                  Business and IP Valuation
+                </li>
+                <li className='text-2xl'>
+                  Due Diligence
+                </li>
+                <li className='text-2xl'>
+                  SOP Development
+                </li>
+              </ul>
             </div>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
               <h2 className='flex mt-auto mb-4 text-4xl'>
@@ -135,6 +224,17 @@ export default function Home() {
                 Succession Planning
               </h2>
               <p className='text-2xl font-light'>We have dedicated team to provide next generation securities for your family wealth and business thorough succession planning</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Listing of Property
+                </li>
+                <li className='text-2xl'>
+                  Will or Trust
+                </li>
+                <li className='text-2xl'>
+                Business and Property Restructure
+                </li>
+              </ul>
             </div>
           </div>
           <div className='flex flex-col gap-5 md:flex-row my-2'>
@@ -144,13 +244,35 @@ export default function Home() {
                 Portfolio Audit
               </h2>
               <p className='text-2xl font-light'>We advise on your investment about Investment ROI, future value and investment purpose. Everyone has to do portfolio audit at least twice in year to get maximum return on your investment</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Know your Investment
+                </li>
+                <li className='text-2xl'>
+                  Due diligence of Investment
+                </li>
+                <li className='text-2xl'>
+                  New opportunity for your wealth
+                </li>
+              </ul> 
             </div>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
               <h2 className='flex mt-auto mb-4 text-4xl'>
                 <svg fill='currentColor' height='40px' width='40px' className='mr-2' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><g id='SVGRepo_bgCarrier' strokeWidth='0'></g><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g><g id='SVGRepo_iconCarrier'> <g> <g> <path d='M49,40c0-0.6-0.4-1-1-1h-5V17h2c0.6,0,1-0.4,1-1V6c0-0.6-0.4-1-1-1H33c-0.6,0-1,0.4-1,1v3H17V7c0-0.6-0.4-1-1-1h-2V4h-2v2 h-2C9.4,6,9,6.4,9,7v2H7v2h2v2c0,0.6,0.4,1,1,1h2v2h2v-2h2c0.6,0,1-0.4,1-1v-2h15v5c0,0.6,0.4,1,1,1h2v10H17v-2c0-0.6-0.4-1-1-1 h-2v-2h-2v2h-2c-0.6,0-1,0.4-1,1v2H7v2h2v2c0,0.6,0.4,1,1,1h2v2h2v-2h2c0.6,0,1-0.4,1-1v-2h18v10h-5c-0.6,0-1,0.4-1,1v5 c0,0.6,0.4,1,1,1h3v14h2v-4h4v-2h-4v-3h4v-2h-4v-3h8v14h2V46h3c0.6,0,1-0.4,1-1V40z M15,12h-4V8h4V12z M15,30h-4v-4h4V30z M34,7 h10v8h-2h-6h-2V7z M37,17h4v22h-4V17z M47,44h-3H34h-3v-3h5h6h5V44z'></path> <path d='M59,0H1C0.4,0,0,0.4,0,1v55c0,0.6,0.4,1,1,1h28v-2H2V38h26v-2H2V20h26v-2H2V2h56v16h-8v2h8v16h-8v2h8v17h-9v2h10 c0.6,0,1-0.4,1-1V1C60,0.4,59.6,0,59,0z'></path> <rect x='7' y='41' width='2' height='11'></rect> <rect x='12' y='41' width='2' height='11'></rect> <rect x='17' y='41' width='2' height='11'></rect> <rect x='22' y='41' width='2' height='11'></rect> <rect x='53' y='41' width='2' height='11'></rect> <rect x='53' y='23' width='2' height='10'></rect> <rect x='53' y='5' width='2' height='10'></rect> </g> </g> </g></svg>
                 Management Consultancy
               </h2>
-              <p className='text-2xl font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores architecto iure, tempore delectus velit inventore commodi tempora perferendis optio voluptates accusantium obcaecati perspiciatis, esse ipsa illo totam. Perspiciatis, saepe?</p>
+              <p className='text-2xl font-light'>In today's dynamic and competitive business landscape, organizations in India are constantly seeking innovative strategies to stay ahead of the curve. Business consultants play a pivotal role in guiding these enterprises towards success. To facilitate their efforts, our company offers comprehensive management services tailored specifically for business consultants in India. Our services are designed to empower consultants, enhance their efficiency, and enable them to deliver exceptional value to their clients.</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Strategic Consulting and Planning
+                </li>
+                <li className='text-2xl'>
+                  Transaction Services
+                </li>
+                <li className='text-2xl'>
+                  Business Sustainability Reporting
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -160,14 +282,36 @@ export default function Home() {
                 <svg fill='currentColor' height='40px' width='40px' className='mr-2' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><g id='SVGRepo_bgCarrier' strokeWidth='0'></g><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g><g id='SVGRepo_iconCarrier'> <g> <g> <path d='M453.588,183.958c-4.215-1.35-8.73,0.972-10.081,5.188l-6.088,19.005c-9.488-36-29.622-68.622-58.008-93.436 C345.252,84.854,301.423,68.409,256,68.409c-10.726,0-21.458,0.918-31.959,2.72c-20.18-37.235-59.615-62.578-104.859-62.578 C53.465,8.551,0,62.016,0,127.733s53.465,119.182,119.182,119.182s119.182-53.465,119.182-119.182 c0-14.574-2.635-28.545-7.445-41.465c8.271-1.21,16.677-1.826,25.082-1.826c41.54,0,81.621,15.038,112.858,42.344 c26.289,22.982,44.839,53.278,53.376,86.683l-15.294-15.746c-3.084-3.176-8.16-3.249-11.336-0.165 c-3.176,3.085-3.25,8.16-0.165,11.336l34.739,35.767c1.527,1.572,3.61,2.431,5.751,2.431c0.609,0,1.224-0.069,1.83-0.212 c2.742-0.643,4.945-2.678,5.804-5.359l15.212-47.483C460.128,189.823,457.804,185.309,453.588,183.958z M119.182,230.881 c-56.876,0-103.148-46.272-103.148-103.148S62.306,24.585,119.182,24.585c56.876,0,103.148,46.272,103.148,103.148 C222.33,184.609,176.057,230.881,119.182,230.881z'></path> </g> </g> <g> <g> <path d='M127.198,121.875V85.166c11.014,2.054,18.171,8.139,18.171,13.706c0,4.427,3.589,8.017,8.017,8.017 s8.017-3.589,8.017-8.017c0-15.098-14.492-27.299-34.205-29.93v-9.619c0-4.427-3.589-8.017-8.017-8.017s-8.017,3.589-8.017,8.017 v9.619C91.452,71.574,76.96,83.775,76.96,98.873c0,21.354,18.87,29.654,34.205,34.718v36.709 c-11.014-2.054-18.171-8.139-18.171-13.706c0-4.427-3.589-8.017-8.017-8.017s-8.017,3.589-8.017,8.017 c0,15.098,14.492,27.298,34.205,29.93v9.619c0,4.427,3.589,8.017,8.017,8.017s8.017-3.589,8.017-8.017v-9.619 c19.713-2.632,34.205-14.831,34.205-29.93C161.403,135.239,142.533,126.939,127.198,121.875z M111.165,116.524 c-13.679-5.219-18.171-9.94-18.171-17.652c0-5.567,7.157-11.652,18.171-13.706V116.524z M127.198,170.299v-31.358 c13.679,5.219,18.171,9.94,18.171,17.652C145.37,162.16,138.212,168.245,127.198,170.299z'></path> </g> </g> <g> <g> <path d='M392.818,265.086c-65.717,0-119.182,53.465-119.182,119.182c0,14.574,2.635,28.545,7.445,41.465 c-8.271,1.21-16.677,1.826-25.082,1.826c-41.54,0-81.621-15.038-112.858-42.344c-26.289-22.982-44.839-53.278-53.376-86.683 l15.294,15.746c3.085,3.177,8.16,3.25,11.336,0.165c3.176-3.085,3.25-8.16,0.165-11.336l-34.739-35.767 c-1.961-2.02-4.84-2.862-7.581-2.219c-2.742,0.643-4.945,2.678-5.804,5.359l-15.213,47.484c-1.351,4.216,0.973,8.73,5.188,10.081 c0.813,0.261,1.638,0.384,2.448,0.384c3.392,0,6.543-2.17,7.633-5.573l6.088-19.005c9.487,36,29.622,68.622,58.009,93.436 c34.159,29.862,77.988,46.307,123.41,46.307c10.726,0,21.458-0.918,31.959-2.72c20.18,37.235,59.615,62.578,104.859,62.578 c65.717,0,119.182-53.465,119.182-119.182S458.535,265.086,392.818,265.086z M392.818,487.415 c-56.876,0-103.148-46.272-103.148-103.148c0-56.876,46.272-103.148,103.148-103.148c56.876,0,103.148,46.272,103.148,103.148 C495.967,441.143,449.694,487.415,392.818,487.415z'></path> </g> </g> <g> <g> <path d='M438.783,411.121c-4.057-1.773-8.784,0.08-10.555,4.138c-5.532,12.665-18.035,20.85-31.853,20.85 c-19.155,0-34.739-15.584-34.739-34.739v-9.086h31.183c4.427,0,8.017-3.589,8.017-8.017c0-4.427-3.589-8.017-8.017-8.017h-31.183 v-9.086c0-19.155,15.584-34.739,34.739-34.739c13.809,0,26.31,8.177,31.846,20.832c1.774,4.056,6.502,5.907,10.557,4.131 c4.056-1.774,5.906-6.501,4.131-10.557c-8.089-18.491-26.355-30.439-46.534-30.439c-27.995,0-50.772,22.777-50.772,50.772v9.086 h-4.091c-4.427,0-8.017,3.589-8.017,8.017c0,4.427,3.589,8.017,8.017,8.017h4.091v9.086c0,27.995,22.777,50.772,50.772,50.772 c20.192,0,38.463-11.959,46.546-30.466C444.693,417.619,442.84,412.893,438.783,411.121z'></path> </g> </g> </g></svg>
                 Cross Border Transaction
               </h2>
-              <p className='text-2xl font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores architecto iure, tempore delectus velit inventore commodi tempora perferendis optio voluptates accusantium obcaecati perspiciatis, esse ipsa illo totam. Perspiciatis, saepe?</p>
+              <p className='text-2xl font-light'>Now a days Globalized business landscape, Indian companies are increasingly looking beyond borders to expand their horizons and tap into international markets. However, navigating the complexities of cross-border transactions can be daunting, requiring expert guidance and a deep understanding of international business regulations. At MAP CA, we offer specialized Cross-Border Transaction Services tailored to the unique needs of businesses in India.</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Advance Ruling Representational Services
+                </li>
+                <li className='text-2xl'>
+                  International Taxation
+                </li>
+                <li className='text-2xl'>
+                  FEMA and RBI compliances
+                </li>
+              </ul>
             </div>
             <div className='bg-dark-100 w-full md:w-6/12 lg:p-10 p-8 rounded-[32px] bg-zinc-200 dark:bg-zinc-700'>
               <h2 className='flex mt-auto mb-4 text-4xl'>
                 <svg fill='currentColor' height='40px' width='40px' className='mr-2' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><g id='SVGRepo_bgCarrier' strokeWidth='0'></g><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g><g id='SVGRepo_iconCarrier'> <g> <g> <path d='M507.049,133.152L259.066,30.538c-1.963-0.812-4.168-0.812-6.13,0L4.952,133.152C1.955,134.392,0,137.316,0,140.56v25.653 c0,4.427,3.589,8.017,8.017,8.017h26.188v26.188c0,4.427,3.589,8.017,8.017,8.017h17.637v189.194H42.221 c-4.427,0-8.017,3.589-8.017,8.017v26.188H16.568c-4.427,0-8.017,3.589-8.017,8.017v34.205c0,4.427,3.589,8.017,8.017,8.017 h478.864c4.427,0,8.017-3.589,8.017-8.017V439.85c0-4.427-3.589-8.017-8.017-8.017h-17.637v-26.188 c0-4.427-3.589-8.017-8.017-8.017h-17.637V208.434h17.637c4.427,0,8.017-3.589,8.017-8.017V174.23h26.188 c4.427,0,8.017-3.589,8.017-8.017V140.56C512,137.316,510.045,134.392,507.049,133.152z M487.415,447.866v18.171H24.585v-18.171 H487.415z M461.762,413.662v18.171H50.238v-18.171H461.762z M75.891,397.628V208.434h18.171v189.194H75.891z M110.096,397.628 V208.434h18.171v189.194H110.096z M144.301,397.628V208.434h18.171v189.194H144.301z M178.505,397.628V208.434h18.171v189.194 H178.505z M212.71,397.628V208.434h18.171v189.194H212.71z M246.914,397.628V208.434h18.171v189.194H246.914z M281.119,397.628 V208.434h18.171v189.194H281.119z M315.324,397.628V208.434h18.171v189.194H315.324z M349.528,397.628V208.434h18.171v189.194 H349.528z M383.733,397.628V208.434h18.171v189.194H383.733z M417.937,397.628V208.434h18.171v189.194H417.937z M461.762,192.401 H50.238V174.23h411.524V192.401z M495.967,158.196H16.033v-12.278L256,46.622l239.967,99.296V158.196z'></path> </g> </g> </g></svg>
                 Regulatory Services
               </h2>
-              <p className='text-2xl font-light'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere asperiores architecto iure, tempore delectus velit inventore commodi tempora perferendis optio voluptates accusantium obcaecati perspiciatis, esse ipsa illo totam. Perspiciatis, saepe?</p>
+              <p className='text-2xl font-light'>Welcome to our comprehensive regulatory services for business consultants in India. In an ever-evolving business landscape, staying compliant with the myriad of regulations and laws is crucial for the success and sustainability of any business. Our dedicated team of experts understands the unique challenges faced by businesses in India and offers specialized regulatory services to ensure that your operations remain within legal boundaries.</p>
+              <ul className='list-disc mt-2 ml-4'>
+                <li className='text-2xl'>
+                  Compliances and Registration Services
+                </li>
+                <li className='text-2xl'>
+                  ROC Compliances
+                </li>
+                <li className='text-2xl'>
+                  ESI and PF compliances
+                </li>
+              </ul>
             </div>
           </div>
           
@@ -180,17 +324,17 @@ export default function Home() {
           <h3 className='py-4 text-5xl text-center font-medium'>Why Choose Us</h3>
           <div className='flex my-2 lg:p-10 p-8'>
             <ul className='list-none'>
-              <li className='text-2xl'>
+              <li className='text-2xl font-medium'>
                 <span>In-Depth Knowledge : </span>
                 <span className='font-light'>Now this is a story all about how, my life got flipped-turned upside down</span>
               </li>
               <br />
-              <li className='text-2xl'>
+              <li className='text-2xl font-medium'>
                 <span>Personalized Service : </span>
                 <span className='font-light'>We build strong relationships with our clients, ensuring that we understand their needs and objectives thoroughly</span>
               </li>
               <br />
-              <li className='text-2xl'>
+              <li className='text-2xl font-medium'>
                 <span>Timely Delivery : </span>
                 <span className='font-light'>We are committed to delivering our services promptly, meeting deadlines consistently</span>
               </li>
@@ -207,7 +351,6 @@ export default function Home() {
             <Carousel
               centerMode
               centerSlidePercentage={100 / displayCount}
-
               autoPlay={true}
               interval={2000}
               infiniteLoop={true}
@@ -216,60 +359,40 @@ export default function Home() {
               showThumbs={false}
             >
               <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
+                <Image src="/team/Manish-Kumar.png" alt="Manish Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Manish Kumar (CA Partner)</p> 
+              </div>
+              <div>
+                <Image src="/team/CA-AMit-SInha-Partner.png" alt="Amit Sinha" className="w-16" width={100} height={100} priority />
+                <p className="legend">Amit Sinha (CA Partner)</p> 
+              </div>
+              <div>
+                <Image src="/team/Deepanshu-Rawat-Accoaunts-Executive.png" alt="Deepanshu Rawat" className="w-16" width={100} height={100} priority />
+                <p className="legend">Deepanshu Rawat (Accoaunts Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Divyanshu-Sundriyal-Accouants-Executive.png" alt="Divyanshu Sundriyal" className="w-16" width={100} height={100} priority />
+                <p className="legend">Divyanshu Sundriyal (Accoaunts Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Arti-Arya-Office-Admin.png" alt="Arti Arya" className="w-16" width={100} height={100} priority />
+                <p className="legend">Arti Arya (Office Admin)</p> 
+              </div>
+              <div>
+                <Image src="/team/Rahul-Mishra-Audit-Team-Manager.png" alt="Rahul Mishra" className="w-16" width={100} height={100} priority />
+                <p className="legend">Rahul Mishra (Team Manager)</p> 
+              </div>
+              <div>
+                <Image src="/team/Vishul-Kumar-saxena-Accouants-Executive.png" alt="Vishul Kumar Saxena" className="w-16" width={100} height={100} priority />
+                <p className="legend">Vishul Kumar Saxena (Accoaunts Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Monu-Kumar-Audit-Executive.png" alt="Monu Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Monu Kumar (Audit Execitive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Rupesh-Audit-Execitive.png" alt="Rupesh" className="w-16" width={100} height={100} priority />
                 <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
-              </div>
-              <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Manish-Kumar.png" alt="MKS Logo" className="w-16" width={100} height={100} priority />
-                <p className="legend">Manish Kumar</p> 
               </div>
             </Carousel>
           </div>
