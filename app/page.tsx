@@ -371,18 +371,6 @@ export default function Home() {
                 <p className="legend">Divyanshu Sundriyal (Accounts Executive)</p> 
               </div>
               <div>
-                <Image src="/team/Abhisek-kumar.png" alt="Abhisek Kumar" className="w-16" width={100} height={100} priority />
-                <p className="legend">Abhisek Kumar (Accounts Executive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Akhouri-Amit-Kumar.png" alt="Akhouri Amit Kumar" className="w-16" width={100} height={100} priority />
-                <p className="legend">Akhouri Amit Kumar (Accounts Executive)</p> 
-              </div>
-              <div>
-                <Image src="/team/Deepak-kumar.png" alt="Deepak kumar" className="w-16" width={100} height={100} priority />
-                <p className="legend">Deepak kumar (Accounts Executive)</p> 
-              </div>
-              <div>
                 <Image src="/team/Arti-Arya-Office-Admin.png" alt="Arti Arya" className="w-16" width={100} height={100} priority />
                 <p className="legend">Arti Arya (Office Admin)</p> 
               </div>
@@ -397,6 +385,18 @@ export default function Home() {
               <div>
                 <Image src="/team/Rupesh-Audit-Execitive.png" alt="Rupesh" className="w-16" width={100} height={100} priority />
                 <p className="legend">Rupesh (Audit Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Abhisek-kumar.png" alt="Abhisek Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Abhisek Kumar (Audit Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Akhouri-Amit-Kumar.png" alt="Akhouri Amit Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Akhouri Amit Kumar (Audit Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Deepak-kumar.png" alt="Deepak kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Deepak kumar (Audit Executive)</p> 
               </div>
             </Carousel>
           </div>
