@@ -109,7 +109,7 @@ export default function Home() {
           </div>
           <div className='flex my-4 pb-4'>
             <div className='lg:px-10 px-8 text-2xl font-light'>
-              Our growth can be attributed to our employees' knowledge, skill, and commitment to providing outstanding client service. Our employees are a part of a team that values the individual strengths that each employee contributes.
+              Our growth can be attributed to our employees&apos;s knowledge, skill, and commitment to providing outstanding client service. Our employees are a part of a team that values the individual strengths that each employee contributes.
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ export default function Home() {
                 <svg fill='currentColor' height='40px' width='40px' className='mr-2' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><g id='SVGRepo_bgCarrier' strokeWidth='0'></g><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round'></g><g id='SVGRepo_iconCarrier'> <g> <g> <path d='M49,40c0-0.6-0.4-1-1-1h-5V17h2c0.6,0,1-0.4,1-1V6c0-0.6-0.4-1-1-1H33c-0.6,0-1,0.4-1,1v3H17V7c0-0.6-0.4-1-1-1h-2V4h-2v2 h-2C9.4,6,9,6.4,9,7v2H7v2h2v2c0,0.6,0.4,1,1,1h2v2h2v-2h2c0.6,0,1-0.4,1-1v-2h15v5c0,0.6,0.4,1,1,1h2v10H17v-2c0-0.6-0.4-1-1-1 h-2v-2h-2v2h-2c-0.6,0-1,0.4-1,1v2H7v2h2v2c0,0.6,0.4,1,1,1h2v2h2v-2h2c0.6,0,1-0.4,1-1v-2h18v10h-5c-0.6,0-1,0.4-1,1v5 c0,0.6,0.4,1,1,1h3v14h2v-4h4v-2h-4v-3h4v-2h-4v-3h8v14h2V46h3c0.6,0,1-0.4,1-1V40z M15,12h-4V8h4V12z M15,30h-4v-4h4V30z M34,7 h10v8h-2h-6h-2V7z M37,17h4v22h-4V17z M47,44h-3H34h-3v-3h5h6h5V44z'></path> <path d='M59,0H1C0.4,0,0,0.4,0,1v55c0,0.6,0.4,1,1,1h28v-2H2V38h26v-2H2V20h26v-2H2V2h56v16h-8v2h8v16h-8v2h8v17h-9v2h10 c0.6,0,1-0.4,1-1V1C60,0.4,59.6,0,59,0z'></path> <rect x='7' y='41' width='2' height='11'></rect> <rect x='12' y='41' width='2' height='11'></rect> <rect x='17' y='41' width='2' height='11'></rect> <rect x='22' y='41' width='2' height='11'></rect> <rect x='53' y='41' width='2' height='11'></rect> <rect x='53' y='23' width='2' height='10'></rect> <rect x='53' y='5' width='2' height='10'></rect> </g> </g> </g></svg>
                 Management Consultancy
               </h2>
-              <p className='text-2xl font-light'>In today's dynamic and competitive business landscape, organizations in India are constantly seeking innovative strategies to stay ahead of the curve. Business consultants play a pivotal role in guiding these enterprises towards success. To facilitate their efforts, our company offers comprehensive management services tailored specifically for business consultants in India. Our services are designed to empower consultants, enhance their efficiency, and enable them to deliver exceptional value to their clients.</p>
+              <p className='text-2xl font-light'>In today&apos;s dynamic and competitive business landscape, organizations in India are constantly seeking innovative strategies to stay ahead of the curve. Business consultants play a pivotal role in guiding these enterprises towards success. To facilitate their efforts, our company offers comprehensive management services tailored specifically for business consultants in India. Our services are designed to empower consultants, enhance their efficiency, and enable them to deliver exceptional value to their clients.</p>
               <ul className='list-disc mt-2 ml-4'>
                 <li className='text-2xl'>
                   Strategic Consulting and Planning
