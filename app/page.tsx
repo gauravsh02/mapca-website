@@ -364,11 +364,11 @@ export default function Home() {
               </div>
               <div>
                 <Image src="/team/Deepanshu-Rawat-Accoaunts-Executive.png" alt="Deepanshu Rawat" className="w-16" width={100} height={100} priority />
-                <p className="legend">Deepanshu Rawat (Accoaunts Executive)</p> 
+                <p className="legend">Deepanshu Rawat (Accounts Executive)</p> 
               </div>
               <div>
                 <Image src="/team/Divyanshu-Sundriyal-Accouants-Executive.png" alt="Divyanshu Sundriyal" className="w-16" width={100} height={100} priority />
-                <p className="legend">Divyanshu Sundriyal (Accoaunts Executive)</p> 
+                <p className="legend">Divyanshu Sundriyal (Accounts Executive)</p> 
               </div>
               <div>
                 <Image src="/team/Arti-Arya-Office-Admin.png" alt="Arti Arya" className="w-16" width={100} height={100} priority />
@@ -380,15 +380,15 @@ export default function Home() {
               </div>
               <div>
                 <Image src="/team/Vishul-Kumar-saxena-Accouants-Executive.png" alt="Vishul Kumar Saxena" className="w-16" width={100} height={100} priority />
-                <p className="legend">Vishul Kumar Saxena (Accoaunts Executive)</p> 
+                <p className="legend">Vishul Kumar Saxena (Accounts Executive)</p> 
               </div>
               <div>
                 <Image src="/team/Monu-Kumar-Audit-Executive.png" alt="Monu Kumar" className="w-16" width={100} height={100} priority />
-                <p className="legend">Monu Kumar (Audit Execitive)</p> 
+                <p className="legend">Monu Kumar (Audit Executive)</p> 
               </div>
               <div>
                 <Image src="/team/Rupesh-Audit-Execitive.png" alt="Rupesh" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Execitive)</p> 
+                <p className="legend">Rupesh (Audit Executive)</p> 
               </div>
             </Carousel>
           </div>
