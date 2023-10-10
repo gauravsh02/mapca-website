@@ -383,10 +383,6 @@ export default function Home() {
                 <p className="legend">Monu Kumar (Audit Executive)</p> 
               </div>
               <div>
-                <Image src="/team/Rupesh-Audit-Execitive.png" alt="Rupesh" className="w-16" width={100} height={100} priority />
-                <p className="legend">Rupesh (Audit Executive)</p> 
-              </div>
-              <div>
                 <Image src="/team/Abhisek-kumar.png" alt="Abhisek Kumar" className="w-16" width={100} height={100} priority />
                 <p className="legend">Abhisek Kumar (Audit Executive)</p> 
               </div>
@@ -397,6 +393,10 @@ export default function Home() {
               <div>
                 <Image src="/team/Deepak-kumar.png" alt="Deepak kumar" className="w-16" width={100} height={100} priority />
                 <p className="legend">Deepak kumar (Audit Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Rupesh-Audit-Execitive.png" alt="Rupesh" className="w-16" width={100} height={100} priority />
+                <p className="legend">Rupesh (Audit Executive)</p> 
               </div>
             </Carousel>
           </div>
