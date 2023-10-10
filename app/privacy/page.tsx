@@ -148,7 +148,7 @@ export default function Privacy() {
                 Enforcement of Privacy Policy
               </h4>
               <p>
-                We make every effort, including periodic reviews to ensure that Personal Information provided by you is used in conformity with this Privacy Policy Statement. If you have any concerns regarding our adherence to this Privacy Policy Statement or the manner in which Personal Information is used for the purpose of providing True Services, kindly contact MAP CA Customer Support Services at care@MAP CA.in. We will contact you to address your concerns and we will also co-operate with regulatory authorities in this regard if needed.
+                We make every effort, including periodic reviews to ensure that Personal Information provided by you is used in conformity with this Privacy Policy Statement. If you have any concerns regarding our adherence to this Privacy Policy Statement or the manner in which Personal Information is used for the purpose of providing True Services, kindly contact MAP CA Customer Support Services at mapfcadelhi@gmail.com. We will contact you to address your concerns and we will also co-operate with regulatory authorities in this regard if needed.
               </p>
             </div>
 
@@ -186,7 +186,7 @@ export default function Privacy() {
                 End of Privacy Policy
               </h4>
               <p>
-                If you have any questions or concerns regarding this Privacy Policy Statement, please contact us at accounts@MAP CA.in. We shall respond to all inquiries within 30 days of receipt upon ascertaining your identity.
+                If you have any questions or concerns regarding this Privacy Policy Statement, please contact us at mapfcadelhi@gmail.com. We shall respond to all inquiries within 30 days of receipt upon ascertaining your identity.
               </p>
             </div>
         </div>

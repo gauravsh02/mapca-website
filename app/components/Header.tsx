@@ -31,7 +31,7 @@ export const Header = () => {
             <div className="items-center gap-3">
               {/* <Image src="/logo.svg" alt="MKS Logo" className="w-16" width={50} height={24} priority /> */}
               {/* <a className="font-semibold dark:text-grey-500 brand-primary" href="/">MAP <span className="font-light brand-primary">CA</span></a> */}
-              <a className='grid font-semibold dark:text-grey-500 brand-primary' href='/'> <span>MAP & Co</span><span className='font-light text-sm'>Chartered Accountants</span></a>
+              <a className='flex font-semibold dark:text-grey-500 brand-primary' href='/'> <Image src="/ca.svg" alt="MKS Logo" className="w-16" width={50} height={24} priority /> <div className='grid'><span>MAP & Co</span><span className='font-light text-sm'>Chartered Accountants</span></div></a>
             </div>
             <ol className="mx-auto w-max z-10 flex items-center hidden lg:flex">
               <li className="group relative list-none hover:scale-110 py-3 px-7 cursor-pointer dark:text-grey-500">
