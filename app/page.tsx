@@ -371,16 +371,24 @@ export default function Home() {
                 <p className="legend">Divyanshu Sundriyal (Accounts Executive)</p> 
               </div>
               <div>
+                <Image src="/team/Abhisek-kumar.png" alt="Abhisek Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Abhisek Kumar (Accounts Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Akhouri-Amit-Kumar.png" alt="Akhouri Amit Kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Akhouri Amit Kumar (Accounts Executive)</p> 
+              </div>
+              <div>
+                <Image src="/team/Deepak-kumar.png" alt="Deepak kumar" className="w-16" width={100} height={100} priority />
+                <p className="legend">Deepak kumar (Accounts Executive)</p> 
+              </div>
+              <div>
                 <Image src="/team/Arti-Arya-Office-Admin.png" alt="Arti Arya" className="w-16" width={100} height={100} priority />
                 <p className="legend">Arti Arya (Office Admin)</p> 
               </div>
               <div>
                 <Image src="/team/Rahul-Mishra-Audit-Team-Manager.png" alt="Rahul Mishra" className="w-16" width={100} height={100} priority />
                 <p className="legend">Rahul Mishra (Team Manager)</p> 
-              </div>
-              <div>
-                <Image src="/team/Vishul-Kumar-saxena-Accouants-Executive.png" alt="Vishul Kumar Saxena" className="w-16" width={100} height={100} priority />
-                <p className="legend">Vishul Kumar Saxena (Accounts Executive)</p> 
               </div>
               <div>
                 <Image src="/team/Monu-Kumar-Audit-Executive.png" alt="Monu Kumar" className="w-16" width={100} height={100} priority />
@@ -412,7 +420,7 @@ export default function Home() {
                   </span>
                   <a className='font-light' target='_blank' href='https://maps.app.goo.gl/vvzXDKgwsvMKv5PU8'><span>Main Office : </span><span className='hover:cursor-pointer hover:underline brand-primary-light'>A -199, Basement Defence Colony, New Delhi 110024</span></a>
                   <br />
-                  <span className='font-light'><span>Branch Office : </span><span className=''>Swarajpuri Road Gaya, Bihar - 823001</span></span>
+                  <span className='font-light'><span>MAP & Co. Gaya office : </span><span className=''>17/20, 2nd Floor, Swarajpuri Road, Gaya</span></span>
                 </div>
                 <div className='text-left text-2xl lg:px-14 px-8 py-4'>
                   <span className='flex'>
